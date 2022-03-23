@@ -1,0 +1,61 @@
+#include<bits/stdc++.h>//STL FUNCTIONS
+using namespace std;
+main()
+{
+	vector<int>v;
+	//vector<int>v1;
+	//vector<int>v2;
+	v.push_back(10);
+	v.push_back(20);
+	v.push_back(30);
+	v.emplace_back(40);
+	/*for(auto it:v)
+	{
+		cout<<it<<"";
+	}
+	auto it1=v.begin();
+	auto it2=v.end()-1*/;
+	/*for(vector<int>::iterator;it=v.begin();it!=v.end();it++)
+	{
+		cout<<*(it)<<"";
+	}*/
+	/*for(auto it=v.begin();it!=v.end();it++)
+	{
+		cout<<*(it)<<""<<endl;
+	}*/
+	/*for(auto it=v.rbegin();it!=v.rend();it++)
+	{
+		cout<<*(it)<<""<<endl;
+	}*/
+	/*sort(v.begin(),v.end());
+	for(auto it:v)   //sorting 
+	{
+		cout<<it<<""<<endl;
+	}*/
+	/*for(auto it=v.rend();it!=v.rbegin();it--) //ways to print 
+	{
+		cout<<*(it)<<""<<endl;
+	}*/
+	//erase fuctions
+    /*v.erase(v.begin());*/
+    //v.erase(v.begin()+1);
+    //v.erase(v.begin()+1,v.begin()+4);
+    //insert functions 
+   // v.insert(v.begin(),300);
+    // v.insert(v.begin()+1,2,10);
+     //vector<int>copy(3,30);
+     //v.insert(v.begin(),copy.begin(),copy.end());
+     // to swap to vectors
+     /*v1={1,2};
+     v2={3,4};
+     v1.swap(v2);
+     for(auto it:v1)
+     {
+     	cout<<it<<""<<endl;
+     }*/
+	//cout<<v.empty();
+
+	
+    
+
+}
